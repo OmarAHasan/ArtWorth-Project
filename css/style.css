@@ -1,0 +1,324 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo1{
+margin-right: 10px;
+height: 50px;
+}
+header{
+    padding-bottom: 0;
+    height: 80px;
+}
+.nav-item{
+    margin-top: 20px;
+    font-size: 23px;
+    margin-right:10px;
+    font-family: 'Crimson Text', serif;
+    font-weight:300;
+
+}
+.market{
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 25px;
+    
+    
+
+}
+.nav-item:hover{
+    text-decoration: underline;
+}
+.intro{
+    padding-top: 0;
+    background-image: linear-gradient(rgba(37, 35, 35, 0.6), rgba(78, 71, 71, 0.6) ), url(../Images/cover.jpg) ;
+    background-position:center;
+    text-align: center;
+    background-size: cover;
+    height: 330px;
+    
+    
+  
+    
+}
+h1{
+
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+    font-family: 'Crimson Text', serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+p{
+    color:rgb(143, 136, 136);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Crimson Text', serif;
+    margin-bottom: 25px;
+}
+a.num1{
+    font-family: 'Crimson Text', serif;
+    border-radius: 0;
+    font-weight: 400;
+    border: solid 2px;
+    padding: 12px 20px;
+}
+.container{
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+}
+.story{
+    background-image: url(../Images/xartworth-stories.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 600px;
+    opacity: 1;
+    transition: opacity 0.70s;
+
+}
+.story:hover{
+    opacity: 0.7;
+    
+    
+
+}
+.agence{
+    background-image: url(../Images/xartworth-agency.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 600px;
+    opacity: 1;
+    transition: opacity 0.70s;
+}
+.agence:hover{
+    opacity: 0.7;
+}
+.cart{
+    background-image: url(../Images/xartworth-shop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 600px;
+    opacity: 1;
+    transition: opacity 0.70s;
+}
+.cart:hover{
+    opacity: 0.7;
+}
+h2{
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    
+    
+
+}
+a{
+    color: white;
+    padding-top: 0%;
+    font-size: 25px;
+    
+}
+a:hover{
+    text-decoration: underline rgb(184, 184, 146);
+    color: rgb(112, 112, 82);
+    
+}
+.fa-angle-double-right{
+    font-size: 25px;
+    margin-top: 5px;
+}
+span{
+    color: black;
+    font-size: 30px;
+    font-family: 'Crimson Text', serif;
+   
+}
+span:hover{
+    text-decoration: underline rgb(184, 184, 146);
+    color: rgb(117, 117, 104);
+}
+img{
+    margin-top: 10px;
+    
+    height: 300px;
+    width: 300px;
+    
+}
+h3{
+    margin-top: 10px;
+    color: black;
+    font-family: 'Crimson Text', serif;
+
+}
+h3 span{
+    color: rgb(112, 112, 82);
+    font-size: 15px;
+}
+p span{
+    color: rgb(63, 59, 59);
+    text-align: center;
+    margin-bottom: 0px;
+}
+a.shop{
+    border: solid black 2px;
+    color: rgb(63, 59, 59);
+    font-family: 'Crimson Text', serif;
+    padding:15px 20px ;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 0;
+}
+a.shop:hover{
+    background-color: black;
+    color: white;
+}
+.academy{
+    background-image: linear-gradient(rgba(71, 67, 67, 0.6), rgba(77, 72, 72, 0.6) ), url(../Images/Academy.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    
+}
+.academy h2{
+    font-family: 'Crimson Text', serif;
+    margin-bottom: 25px;
+    font-size: 40px;
+    padding-top: 65px;
+}
+.academy p{
+    color: white;
+    font-family: 'Crimson Text', serif;
+    font-weight: 400;
+
+}
+.academic{
+    text-align: center;
+    border-radius: 0;
+    border: solid white 1px;
+    color: rgb(63, 59, 59);
+    padding:15px 20px ;
+    background-color: white;
+    font-weight: 300;
+    font-size: 15px;
+}
+.academic:hover{
+    background-color: white;
+}
+.opinions{
+    background-color: #A58F60;
+    text-align: center;
+}
+.opinions h2{
+    margin-bottom: 20px;
+    color: white;
+    padding-top: 30px;
+    font-family: 'Crimson Text', serif;
+    font-weight: 500;
+    font-size: 40px;
+
+}
+.opinions p{
+    color: white;
+    font-family: 'Crimson Text', serif;
+
+
+}
+.opinions span{
+    color: #565656;
+    font-size: 18px;
+    font-family: 'Crimson Text', serif;
+    text-decoration: none;
+}
+.pic img{
+    height: 600px;
+    width: 600px;
+    margin-left: 80px;
+}
+.card{
+    border: none;
+
+}
+.card p{
+    text-align: left;
+    font-family: 'Crimson Text', serif;
+
+
+}
+form p{
+    margin-bottom: 2px;
+    padding-top: 15px;
+    font-size: 15px;
+}
+h5{
+    color: black;
+    font-family: 'Crimson Text', serif;
+
+}
+.sub{
+   background-color:#A58F60 ;
+   color: white;
+   padding: 12px 20px;
+   border-radius: 0;
+   margin-top: 20px;
+   font-family: 'Crimson Text', serif;
+
+}
+.pay{
+    background-color: #EFEFEF;
+}
+.pay i{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.pay p{
+    font-family: 'Crimson Text', serif;
+
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px; padding-bottom: 20px;
+    color: black;
+    background-color: white;
+    
+
+}
+.footer-nav{
+    list-style: none;
+    
+
+}
+footer ul{
+  text-align: center;
+  margin-left: 90px;
+}
+.footer-nav li{
+    display: inline-block;
+     
+}
+.footer-nav li a{
+    color: #A58F60;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Crimson Text', serif;
+
+}
+.footer-nav li a:hover{
+    text-decoration: underline;
+}
+footer p{
+    text-align: center;
+    margin-right: 80px;
+    font-family: 'Crimson Text', serif;
+
+}
+footer p a{
+    color: #A58F60;
+    font-size: 15px;
+    font-family: 'Crimson Text', serif;
+
+}
